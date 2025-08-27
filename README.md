@@ -31,6 +31,7 @@ SESSION 기반으로 동작합니다.
 #
 
 ## COMMENT API 명세서
+
 기능     |  Method | URL    | request | response | 상태코드
 --------|---------|--------|---------|----------|---------
 댓글 생성  | POST    | /schedules/{scheduleId}/comments | comment |  id, scheduleId, userId, comment, createdAt, updatedAt | 201 CREATED
@@ -44,5 +45,6 @@ SESSION 기반으로 동작합니다.
 
 ## ERD
 
-<img width="1411" height="542" alt="Scheduler" src="https://github.com/user-attachments/assets/53d665ed-1420-47af-ad7a-a68425155598" />
+<img width="1411" height="542" alt="Scheduler" src="https://github.com/user-attachments/assets/d4a3b407-3513-4809-b253-e3a87ff9eafb" />
+
 
